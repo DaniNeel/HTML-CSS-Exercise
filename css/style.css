@@ -1,0 +1,64 @@
+
+            .navbar .nav-item:hover .dropdown-menu{ display: block; background-color :white; }
+            .navbar .nav-item:hover { background-color: deepskyblue;}
+            .navbar .nav-item .dropdown-menu .dropdown-item:hover{ background-color: deepskyblue;}          
+            .img-div{position:relative; display: inline-block; }
+          
+            .overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                opacity: 0;
+                background-color:deepskyblue;
+            }
+
+            .img-div:hover .overlay {
+                opacity: 0.8;
+            }
+
+                
+            .icon-center{
+               display: flex;
+               flex-direction: row;
+               justify-content: center;
+               align-items: center;
+            }
+                 
+            .icon-style{
+                color: white;
+                font-size: 2em;
+            }
+            .bg1 {
+              
+                background-image :url("../images/w1.jpg");
+
+                height: 100%; 
+
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+             
+            }
+            .form-input{
+                border-color: white;
+                border-radius: 5px;
+            }
+            .form-margin{
+                margin-left: 33%;
+            }
+            .pad-par{
+                padding-left: 11%;
+                padding-right: 11%;
+            }
+            @media (max-width: 991px){
+                .icon-style{
+                    font-size: 1.4em;
+                }
+            }
+            @media (max-width: 767px){
+                .icon-style{
+                    font-size: 2em;
+                }
+            }
